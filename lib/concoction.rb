@@ -1,5 +1,5 @@
-module Concotion
-  class Concotion
+module Concoction
+  class Concoction
 	attr_accessor :ingredient, :units, :quantity
 
 	def initialize()

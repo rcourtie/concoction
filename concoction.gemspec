@@ -1,10 +1,10 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "concotion/version"
+require "concoction/version"
 
 Gem::Specification.new do |s|
-  s.name        = "concotion"
-  s.version     = Concotion::VERSION
+  s.name        = "concoction"
+  s.version     = Concoction::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Rodolphe Courtier"]
   s.email       = ["rodolphe.courtier@gmail.com"]
@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{TODO: Write a gem summary}
   s.description = %q{TODO: Write a gem description}
 
-  s.rubyforge_project = "concotion"
+  s.rubyforge_project = "concoction"
 
   s.add_development_dependency "cucumber"
 

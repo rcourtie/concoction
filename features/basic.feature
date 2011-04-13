@@ -5,7 +5,7 @@ Feature: Parse Natural Language Ingredients Feature
 
 	Scenario Outline: Parse Ingredient Scenario
 		Given a User has entered <ingredient>
-		When concotion parses it
+		When concoction parses it
 		Then the ingredient should be <reagent>
 		And the units should be <unit>
 		And the quantity should be <quantity>
