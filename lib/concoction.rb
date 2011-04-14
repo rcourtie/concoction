@@ -1,8 +1,9 @@
 module Concoction
   class Concoction
-	attr_accessor :ingredient, :units, :quantity
+	attr_accessor :raw, :ingredient, :units, :quantity
 
-	def initialize()
+	def initialize(raw)
+		@raw = raw
 		@ingredient = "flour"
 		@units = "cups"
 		@quantity = 1.0

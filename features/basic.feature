@@ -9,6 +9,7 @@ Feature: Parse Natural Language Ingredients Feature
 		Then the ingredient should be <reagent>
 		And the units should be <unit>
 		And the quantity should be <quantity>
+		And the raw should be <ingredient>
 
 		Examples:
 		|ingredient		|reagent	|unit	|quantity	|
