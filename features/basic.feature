@@ -12,6 +12,7 @@ Feature: Parse Natural Language Ingredients Feature
 		And the raw should be <ingredient>
 
 		Examples:
-		|ingredient			|reagent	|unit	|quantity	|
-		|1 cup of flour		|flour		|cups	|1.0		|
-		|1.5 cups of flour	|flour		|cups	|1.5		|
+		|ingredient           |reagent|unit	|quantity|
+		|1 cup of flour       |flour  |cups	|1.0     |
+		|1.5 cups of flour    |flour  |cups	|1.5     |
+		|1 1/2 cups of flour  |flour  |cups	|1.5     |
