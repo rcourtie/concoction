@@ -8,17 +8,17 @@ When /concoction parses it/ do
 end
 
 Then /the ingredient should be (.*)/ do |thing|
-	thing.should == @concoction.ingredient
+	@concoction.ingredient.should == thing
 end
 
 And /the units should be (.*)/ do |units|
-	units.should == @concoction.units
+	@concoction.units.should == units
 end
 
 And /the quantity should be (\d*\.\d*)/ do |quantity|
-	quantity.to_f.should == @concoction.quantity
+	@concoction.quantity.should == quantity.to_f
 end
 
 And /the raw should be (.*)/ do |raw|
-	raw.should == @concoction.raw
+	@concoction.raw.should == raw
 end
