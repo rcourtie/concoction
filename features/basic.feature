@@ -16,3 +16,4 @@ Feature: Parse Natural Language Ingredients Feature
 		|1 cup of flour       |flour  |cups	|1.0     |
 		|1.5 cups of flour    |flour  |cups	|1.5     |
 		|1 1/2 cups of flour  |flour  |cups	|1.5     |
+		|1/2 cups of flour    |flour  |cups	|.5      |
